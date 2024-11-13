@@ -1,4 +1,4 @@
-import java.util.Arrays;
+// import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
@@ -81,6 +81,16 @@ public class Main {
         taskN += 1;
         System.out.println("Task " + taskN + ".");
         System.out.println("=======");
+        System.out.println();
+
+        char[] reverseFullName = { 'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
+        lastIndex = reverseFullName.length - 1;
+        for (int j = lastIndex; j >= 0; j--) {
+            System.out.print(reverseFullName[j]);
+//            if (j != 0) {
+//                System.out.print(", ");
+//            }
+        }
         System.out.println();
 
         System.out.println();
